@@ -2,9 +2,9 @@ export const experience = [
   {
     title: "Frontend Engineer",
     company_name: "Automedsys",
-    period: "Jun 2023 - Present",
+    period: "April 2024 - Present",
     description:
-      "I collaborated with another developer to conceptualize, design, and develop a website, including domain purchase, secure hosting, testing, CI/CD, and maintenance; conducted code reviews; contributed to a website redesign increasing user engagement by 15%; optimized performance for faster page loads, enhancing user experience.",
+      "Worked as a Frontend Engineer on a healthcare technology platform focused on Electronic Health Records (EHR), contributing to the development of clinical, administrative, and communication workflows used by healthcare providers. Responsibilities included designing and implementing user-facing features, integrating with backend healthcare services, modernizing legacy systems, and improving application usability and performance",
     location: "Remote, USA",
   },
   {
@@ -12,7 +12,7 @@ export const experience = [
     company_name: "Automedsys.",
     period: "Jan 2023 - Jun 2023",
     description:
-      "Developed a Node.js Web app exclusively for company use, streamlining the online management of students, staff and course allocation. Collaborated with other interns and an instructor to conduct user research and iterated on design for optimal functionality, resulting in a substantial increase in user satisfaction. Implemented the web application, achieving a more efficient working environment for staff.",
+      "Optimized EHR user sign-up pages using Next.js, reducing registration time by 50%. Refactored a legacy CodeIgniter codebase to enhance maintainability, and resolved critical API bugs to improve front-end stability. Developed dynamic .NET email templates for user sign-ups and managed API deployments across Linux and Windows servers.",
     location: "Remote, USA",
   },
 ];
@@ -43,6 +43,10 @@ export const socialLinks = [
     name: "Email",
     link: "mailto:duyile35@gmail.com",
   },
+  {
+    name: "CV",
+    link: "https://docs.google.com/document/d/1t3sZOUA9h04fqTHBC2fFCZv-x13-k1nikcOkChSE3bI/edit?tab=t.0",
+  },
 ];
 
 export const skills = [
@@ -66,128 +70,51 @@ export const skills = [
 
 export const projects = [
   {
-    title: "Turva",
+    title: "Grant Management Portal",
     description:
-      "A crowd-sourced safety platform to deliver instant, AI-interpreted danger alerts, enhancing community awareness and response. Built with a Golang backend and React frontend, providing clear, actionable notifications and suggested next steps.",
-    link: "https://turva.co",
-    technologies: [
-      "Golang",
-      "React",
-      "TailwindCSS",
-      "Socket.io",
-      "Gemini",
-      "leaflet",
-      "...",
-    ],
+      "Designed and built a portal for a research department to manage grant records and submissions. Developed with a .NET backend and React frontend for a responsive UI and scalable backend.",
+    link: "https://grant-portal-gamma.vercel.app/",
+    technologies: ["C#", "JavaScript", ".NET", "React"],
     type: "live",
   },
   {
-    title: "Cluster",
+    title: "TemiLyrics",
     description:
-      "A collaborative whiteboard application for remote teams to brainstorm and share ideas.",
-    link: "https://clusterthecollaborativeapp.vercel.app/",
-    technologies: [
-      "TypeScript",
-      "Next.js",
-      "TailwindCSS",
-      "Clerk",
-      "convex",
-      "liveblocks",
-      "zustand",
-      "perfect-freehand",
-      "react-contenteditable",
-    ],
+      "Built a song lyrics interpretation web application using AI. That enables music lovers to grasp the context in which their favorite songs were written in, on a deeper level.",
+    link: "https://intothelyrics.online/",
+    technologies: ["TypeScript", "Next.js", "TailwindCSS", "Llama"],
     type: "live",
   },
   {
-    title: "SarionCare",
-    description: "A website for a Canadian Foster care company.",
-    link: "https://sardioncare.ca",
-    technologies: ["Javascript", "Ejs", "CSS", "Node.JS", "Express", "..."],
-    type: "live",
-  },
-  {
-    title: "My Portfolio",
+    title: "D1 Designs Portfolio Website",
     description:
-      "A personal portfolio website showcasing my projects, skills, and experiences.",
-    link: "https://fiyin.ng",
+      "Built a portfolio website for a creative to give him an online presence that enables him to showcase his work to potential clients.",
+    link: "https://davidmomodu.vercel.app/",
     technologies: ["TypeScript", "Next.js", "TailwindCSS"],
     type: "live",
   },
   {
-    title: "Buy Me Zobo",
-    description: "coming soon...",
-    link: "https://www.buymezobo.ng/",
-    technologies: [
-      "TypeScript",
-      "Next.js",
-      "TailwindCSS",
-      "prisma",
-      "postgresql",
-      "docker",
-      "...",
-    ],
+    title: "HomeVueue Backend",
+    description:
+      "Implemented a Home management system connecting homeowners with service professionals. Integrated API endpoints for secure, validated CRUD operations.",
+    link: "https://home-vueue.onrender.com/swagger/index.html",
+    technologies: ["C#", ".NET"],
     type: "live",
   },
   {
-    title: "WiseCrack",
+    title: "Grant Portal Backend",
     description:
-      "First Mobile dev attempt - An AI-powered problem solver with a tad bit of mood monitoring also aimed to crack a joke upon successful completion of a task.",
-    link: "https://github.com/try-samuel/WiseCrack",
-    technologies: ["TypeScript", "Expo", "react-native", "OpenAI"],
-    type: "",
+      "Backend API for the Grant Management Portal, providing secure and scalable endpoints to manage grant records and submissions.",
+    link: "https://grant-portal-api.onrender.com/swagger/index.html",
+    technologies: ["C#", ".NET"],
+    type: "live",
   },
   {
-    title: "FavJay",
+    title: "Automedsys Website",
     description:
-      "Personal website for FavJay The Roadman, a Nigerian musical artist.",
-    link: "https://favjaytrm.com",
+      "The company website for Automedsys, a healthcare technology provider. Designed and developed to showcase their Electronic Health Records (EHR) solutions and services.",
+    link: "https://dev.automedsys.net/",
     technologies: ["TypeScript", "Next.js", "TailwindCSS"],
-    type: "live",
-  },
-  {
-    title: "QuickChat",
-    description: "A real-time chat application.",
-    link: "https://github.com/try-samuel/QuickChat",
-    technologies: ["JavaScript", "Node.js", "React", "axios", "..."],
-    type: "",
-  },
-  {
-    title: "E-commerce-frontend",
-    description:
-      "A frontend for an e-commerce website built with React.js, to learn.",
-    link: "https://github.com/try-samuel/E-commerce-frontend",
-    technologies: ["JavaScript", "React", "axios", "..."],
-    type: "",
-  },
-  {
-    title: "Aporvis-Client",
-    description: "Frontend for final year project at Babcock University",
-    link: "https://aporvs-client.vercel.app/",
-    technologies: ["JavaScript", "React", "TailwindCSS", "axios", "..."],
-    type: "live",
-  },
-  {
-    title: "Aporvis-Server",
-    description: "Backend for final year project at Babcock University",
-    link: "https://github.com/try-samuel/Aporvis-Server",
-    technologies: ["TypeScript", "Node.js", "Express", "MongoDB", "..."],
-    type: "",
-  },
-  {
-    title: "NerfedFlix",
-    description:
-      "A Netflix clone built with React.js, to master api consumption.",
-    link: "https://nerfed-flix-s3db.vercel.app/",
-    technologies: [
-      "JavaScript",
-      "React",
-      "TailwindCSS",
-      "firebase",
-      "axios",
-      "notistack",
-      "...",
-    ],
     type: "live",
   },
 ];
