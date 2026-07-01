@@ -5,7 +5,7 @@ import { InterTight } from "@/lib/fonts";
 import { SpeedInsights } from "@vercel/speed-insights/next";
 
 export const metadata: Metadata = {
-  metadataBase: new URL("https://fiyin.ng/"),
+  metadataBase: new URL("https://duyile-samuel.vercel.app/"),
   title: "Duyile Samuel Akinwande",
   description:
     "Samuel, A Full-stack Software Engineer, Full Stack Web Developer, and Open Source Enthusiast",
@@ -79,13 +79,13 @@ export const metadata: Metadata = {
   authors: [
     {
       name: "Duyile Samuel Akinwande",
-      url: "https://fiyin.ng/",
+      url: "https://duyile-samuel.vercel.app/",
     },
   ],
   openGraph: {
     type: "website",
     locale: "en_US",
-    url: "https://fiyin.ng/",
+    url: "https://duyile-samuel.vercel.app/",
     description: "This is my portfolio website guys, check it out!",
     images: [
       {
@@ -95,6 +95,9 @@ export const metadata: Metadata = {
         alt: "Samuel Duyile",
       },
     ],
+  },
+  icons: {
+    icon: "/Duyile.jpeg",
   },
 };
 
